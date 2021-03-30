@@ -1,0 +1,6 @@
+<div class='container'>
+  <BsForm @model={{this.model}} @onSubmit={{this.proceed}} as |form|>
+    <form.element @controlType='text' @label='Test field' @property='field' />
+    <form.submitButton @defaultText='Proceed' />
+  </BsForm>
+</div>
